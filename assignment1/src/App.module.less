@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start; /* 좌측 정렬 */
+  align-items: flex-start; /* 상단 정렬 */
+  flex-direction: column; /* 세로로 배치 */
+  width: 680px;
+  height: 700px; /*로 크기 100% */
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 5px 5px #dee2e6;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  .club {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(102, 140, 255);
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+  }
+}
+
+.body {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
